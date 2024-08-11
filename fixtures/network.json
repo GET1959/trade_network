@@ -1,0 +1,278 @@
+[
+  {
+    "model": "network.networklink",
+    "pk": 1,
+    "fields": {
+      "email": "fact_1@tst1.ok",
+      "country": "country_1",
+      "city": "city_1",
+      "street": "street_1",
+      "house_number": "1",
+      "name": "fact_1",
+      "status": "factory",
+      "supplier": null,
+      "debt": "0.00",
+      "create_date": "2024-08-11T12:15:07.280Z"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 2,
+    "fields": {
+      "email": "ret_1@ret1.ok",
+      "country": "country_2",
+      "city": "city_2",
+      "street": "street_2",
+      "house_number": "2",
+      "name": "reta_1",
+      "status": "retailer",
+      "supplier": 1,
+      "debt": "0.00",
+      "create_date": "2024-08-11T12:20:18.632Z"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 3,
+    "fields": {
+      "email": "fact_2@tst2.ok",
+      "country": "country_3",
+      "city": "city_4",
+      "street": "street_4",
+      "house_number": "1",
+      "name": "fact_2",
+      "status": "factory",
+      "supplier": null,
+      "debt": "0.00",
+      "create_date": "2024-08-11T12:26:27.352Z"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 4,
+    "fields": {
+      "email": "ent_1@tst2.ok",
+      "country": "country_4",
+      "city": "city_5",
+      "street": "street_5",
+      "house_number": "2",
+      "name": "ent_1",
+      "status": "enterpriser",
+      "supplier": 2,
+      "debt": "0.00",
+      "create_date": "2024-08-11T12:28:35.713Z"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 5,
+    "fields": {
+      "email": "ent_2@tst5.ok",
+      "country": "country_6",
+      "city": "city_6",
+      "street": "street_6",
+      "house_number": "2",
+      "name": "ent_2",
+      "status": "enterpriser",
+      "supplier": 3,
+      "debt": "0.00",
+      "create_date": "2024-08-11T12:30:49.442Z"
+    }
+  },
+  {
+    "model": "network.networklink",
+    "pk": 6,
+    "fields": {
+      "email": "ret_2@ret2.ok",
+      "country": "country_5",
+      "city": "city_3",
+      "street": "street_3",
+      "house_number": "2",
+      "name": "reta_2",
+      "status": "retailer",
+      "supplier": 5,
+      "debt": "0.00",
+      "create_date": "2024-08-11T12:35:28.322Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 1,
+    "fields": {
+      "owner": 1,
+      "title": "prod_f_1",
+      "model": "mod_f_1",
+      "release_date": "2024-08-11T12:13:40Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 2,
+    "fields": {
+      "owner": 1,
+      "title": "prod_f_2",
+      "model": "mod_f_2",
+      "release_date": "2024-08-11T12:13:40Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 3,
+    "fields": {
+      "owner": 1,
+      "title": "prod_f_3",
+      "model": "mod_f_3",
+      "release_date": "2024-08-11T12:13:40Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 4,
+    "fields": {
+      "owner": 2,
+      "title": "prod_f_4",
+      "model": "mod_f_4",
+      "release_date": "2024-08-11T12:18:54Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 5,
+    "fields": {
+      "owner": 2,
+      "title": "prod_f_5",
+      "model": "mod_f_5",
+      "release_date": "2024-08-11T12:18:54Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 6,
+    "fields": {
+      "owner": 2,
+      "title": "prod_f_6",
+      "model": "mod_f_6",
+      "release_date": "2024-08-11T12:18:54Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 7,
+    "fields": {
+      "owner": 3,
+      "title": "prod_f_10",
+      "model": "mod_f_10",
+      "release_date": "2024-08-11T12:23:54Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 8,
+    "fields": {
+      "owner": 3,
+      "title": "prod_f_11",
+      "model": "mod_f_11",
+      "release_date": "2024-08-11T12:23:54Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 9,
+    "fields": {
+      "owner": 3,
+      "title": "prod_f_12",
+      "model": "mod_f_12",
+      "release_date": "2024-08-11T12:23:54Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 10,
+    "fields": {
+      "owner": 4,
+      "title": "prod_f_5",
+      "model": "mod_f_5",
+      "release_date": "2024-08-11T12:26:37Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 11,
+    "fields": {
+      "owner": 4,
+      "title": "prod_f_6",
+      "model": "mod_f_6",
+      "release_date": "2024-08-11T12:26:37Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 12,
+    "fields": {
+      "owner": 4,
+      "title": "prod_f_7",
+      "model": "mod_f_7",
+      "release_date": "2024-08-11T12:26:37Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 13,
+    "fields": {
+      "owner": 5,
+      "title": "prod_f_10",
+      "model": "mod_f_10",
+      "release_date": "2024-08-11T12:29:01Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 14,
+    "fields": {
+      "owner": 5,
+      "title": "prod_f_11",
+      "model": "mod_f_11",
+      "release_date": "2024-08-11T12:29:01Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 15,
+    "fields": {
+      "owner": 5,
+      "title": "prod_f_12",
+      "model": "mod_f_12",
+      "release_date": "2024-08-11T12:29:01Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 16,
+    "fields": {
+      "owner": 6,
+      "title": "prod_f_10",
+      "model": "mod_f_10",
+      "release_date": "2024-08-11T12:34:16Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 17,
+    "fields": {
+      "owner": 6,
+      "title": "prod_f_11",
+      "model": "mod_f_11",
+      "release_date": "2024-08-11T12:34:16Z"
+    }
+  },
+  {
+    "model": "network.product",
+    "pk": 18,
+    "fields": {
+      "owner": 6,
+      "title": "prod_f_12",
+      "model": "mod_f_12",
+      "release_date": "2024-08-11T12:34:16Z"
+    }
+  }
+]
